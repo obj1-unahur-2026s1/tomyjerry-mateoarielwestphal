@@ -1,17 +1,19 @@
 import tomJerryNibbles.*
 
-describe "Grupo de test" {
+//describe "Grupo de test" {
 
-  test "test 1" {
-    assert.equals(100, 50+50)
+  test "velocidad maxima es 14" {
+    jerry.cumplir(3)
+    tom.comer(jerry)
+    assert.equals(25.9,tom.velocidad_maxima())
   }
 
-  test "test 3" {
-    assert.that(true)
-  }
+ // test "test 3" {
+   // assert.that(true)
+ // }
 
-  test "test 4" {
-    assert.notThat(false)
-  }
+  //test "test 4" {
+    //assert.notThat(false)
+ // }
 
-}
+//}
